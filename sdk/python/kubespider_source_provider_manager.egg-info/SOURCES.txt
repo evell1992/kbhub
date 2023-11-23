@@ -1,9 +1,0 @@
-README.md
-setup.py
-kubespider_source_provider/__init__.py
-kubespider_source_provider/manager.py
-kubespider_source_provider_manager.egg-info/PKG-INFO
-kubespider_source_provider_manager.egg-info/SOURCES.txt
-kubespider_source_provider_manager.egg-info/dependency_links.txt
-kubespider_source_provider_manager.egg-info/requires.txt
-kubespider_source_provider_manager.egg-info/top_level.txt
