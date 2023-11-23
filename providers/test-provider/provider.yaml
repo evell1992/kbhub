@@ -1,0 +1,42 @@
+provider_name: TestProvider
+provider_type: SourceProvider
+instance_params:
+  - name: attendance
+    value_type: bool
+    desc: Auto check-in or not
+    nullable: false
+  - name: main_link
+    value_type: string
+    desc: web site addr
+    nullable: false
+  - name: language
+    value_type: string
+    choose:
+      - index: 0
+        value: english
+      - index: 1
+        value: simplified_chinese
+      - index: 2
+        value: simplified_chinese
+    desc: website language
+    nullable: false
+  - name: html_links
+    value_type: list
+    desc: Search for torrents at fixed time intervals from the provided address
+    nullable: false
+  - name: cookie
+    value_type: string
+    desc: user cookie
+    nullable: false
+  - name: keeping_time
+    value_type: integer
+    desc: time in hour for seeding and downloading
+    nullable: false
+  - name: max_sum_size
+    value_type: integer
+    desc: max download size
+    nullable: false
+  - name: max_seeding
+    value_type: integer
+    desc: max seeding count
+    nullable: false
